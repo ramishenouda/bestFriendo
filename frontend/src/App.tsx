@@ -1,11 +1,12 @@
 import type { Component } from 'solid-js';
+import Home from './components/home/home';
 import Navbar from './components/navbar';
 
 const App: Component = () => {
   return (
-    <div>
+    <div class="lg:px-20 px-5">
       <Navbar />
-      <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
+      <Home />
     </div>
   );
 };
