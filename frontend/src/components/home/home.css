@@ -4,4 +4,5 @@
 
 .absolute-text {
   text-shadow: 0px 1px 4px #784ab8;
+  position: absolute;
 }
